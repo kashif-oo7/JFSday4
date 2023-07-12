@@ -1,0 +1,54 @@
+.container {
+    max-width: 600px;
+    margin: 0px ;
+    padding: 20px;
+    float: right;
+  }
+  
+  h1 {
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-bottom: 400px;
+    border-style: solid;
+    background:linear-gradient(white,red);
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px ;
+    margin-right: 800px;
+    border-style: solid;
+    border-color: rgb(210, 149, 205);
+    background: linear-gradient(black,white);
+    
+    /* border-style: solid black; */
+    /* border-color: black; */
+  }
+  
